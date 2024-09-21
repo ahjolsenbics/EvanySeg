@@ -54,30 +54,6 @@ Note: "i" represents the index of the connected domain being processed in the cu
 
 ## Framework
 
-## Results
-
-
-
-Pearson correlation：
-
-|      Model      | Resolution | Bbox | 1point | 5point |
-| :-------------: | :--------: | :--: | :----: | :----: |
-| EvanySeg(ViT-b) |  224×224   |      |        |        |
-| EvanySeg(ViT-l) |  224×224   |      |        |        |
-
-checkpoint：
-
-|      Model      | Bbox | 1point | 5point |
-| :-------------: | :--: | :----: | :----: |
-| EvanySeg(ViT-b) |      |        |        |
-| EvanySeg(ViT-l) |      |        |        |
-
-
-
-```
-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
-```
-
 
 ## Getting Started
 
