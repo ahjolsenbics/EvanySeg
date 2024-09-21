@@ -79,12 +79,14 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 ```
 
 
+## Getting Started
 
-## Quick Start
+First download the cheeckpoints from [ResNet101 checkpoint](https://drive.google.com/file/d/1Hj7LwH8zIJUaiQmDOkHM6JUgxkoTyGpu/view?usp=drive_link) and  [Vit-b checkpoint](https://drive.google.com/file/d/1S_s8zUgv8V2F8LP_h_4HM96j1LWHzjBB/view?usp=drive_link). 
 
 Download the datasets and pre-trained models to the corresponding folders, and configure the environment.
 
 ```python
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
 pip install -r requirements.txt
 ```
 
