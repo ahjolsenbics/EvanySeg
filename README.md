@@ -94,7 +94,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 pip install -r requirements.txt
 ```
 
-#### test
+#### Test
 
 ```python
 python test.py
@@ -110,17 +110,3 @@ python train.py
 If you're interested in learning more about EvanySeg, we would appreciate your references to [our paper](https://arxiv.org/pdf/2409.14874).
 
 ## Demo
-
-
-
-## Reference
-
-```
-@article{*****,
-title={Towards Ground-truth-free Evaluation of Any Segmentation in Medical Images*},
-author={Ahjol Senbi, Tianyu Huang, Fei Lyu, Qing Li, Yuhui Tao, Wei Shao, Qiang Chen,
-Chengyan Wang, Shuo Wang, Tao Zhou, Yizhe Zhang†},
-journal={ },
-year={2024}
-}
-```
