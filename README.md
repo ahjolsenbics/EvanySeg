@@ -15,11 +15,14 @@
 
 
 <p align="center">
-    <a href="https://github.com/confident-ai/deepeval/releases">
-        <img alt="GitHub release" src="https://img.shields.io/github/release/confident-ai/deepeval.svg?color=violet">
+    <a href="https://github.com/facebookresearch/segment-anything/blob/main/LICENSE">
+        <img alt="Model" src="https://img.shields.io/badge/Model-SAM%20and%20its%20variants-violet.svg">
     </a>
     <a href="https://drive.google.com/drive/folders/1Ngme9APByRTAOOsLGtwzVYzS2Il4jc1n?usp=drive_link">
         <img alt="Try Download EvanySeg checkpoints" src="https://colab.research.google.com/assets/colab-badge.svg">
+    </a>
+    <a href="[https://motacommunity.com/LICENSE](https://github.com/modelscope)">
+        <img alt="OpenDemo" src="https://img.shields.io/badge/Open%20Demo-MotaCommunity-turquoise.svg">
     </a>
     <a href="https://www.python.org/">
         <img alt="Build" src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg?color=purple">
@@ -27,6 +30,8 @@
     <a href="https://github.com/confident-ai/deepeval/blob/master/LICENSE.md">
         <img alt="License" src="https://img.shields.io/github/license/confident-ai/deepeval.svg?color=yellow">
     </a>
+
+
 </p>
  
 ## Framework
