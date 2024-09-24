@@ -20,14 +20,14 @@ from utils.logger import Logger
 os.environ["CUDA_VISIBLE_DEVICES"] = "0, 1, 2, 3"
 
 
-def test(args, model, test_dataset, test_dataloader, device):
+def test(args, model, test_dataset, test_dataloader):
     true_dices = []
     true_hd = []
     pred_dices = []
     pred_hd = []
     Path(args.result_path).mkdir(parents=True, exist_ok=True)
     for i, batch in tqdm(enumerate(test_dataloader), total=len(test_dataloader), desc='test'):
-        crop_images = batch['crop_image_trans'].to(device)
+        crop_images = batch['crop_image_trans'].cuda()
         output = model(crop_images)
         if args.flag == 1:
             true_dices.append(batch['dice'].item())
@@ -57,9 +57,9 @@ if __name__ == "__main__":
     parser.add_argument('--num_workers', type=int, default=4, help='number of workers')
     parser.add_argument('--img_size', type=int, default=224, help='image size')
     parser.add_argument('--flag', type=int, default=1, help="1 for dice; 2 for dice and hd")
-    parser.add_argument("--dataset_path", type=str, default='./datasets/preprocess/bbox/test/test_bbox_sammed2d_tn3k', help='path to dataset')
+    parser.add_argument("--dataset_path", type=str, default='./datasets/preprocess/test_sam_polyp', help='path to dataset')
     parser.add_argument("--result_path", type=str, default="./result")
-    parser.add_argument("--model_path", type=str, default='./result/exp_1/checkpoints/ViT_base_bbox_dice.pth')
+    parser.add_argument("--model_path", type=str, default='./result/ViT_base_bbox_dice.pth')
     parser.add_argument("--classification_model_name", type=str, default="vit_base_224", help='[ resnet50 | resnet101 | vit_base_224 | vit_large_224 ]')
     args = parser.parse_args()
 
@@ -82,8 +82,7 @@ if __name__ == "__main__":
 
     model = load_classification_model(args)
     model.load_state_dict(torch.load(args.model_path))
-    device = torch.device('cuda:0')
-    model.to(device)
+    model.cuda()
     model.eval()
-    test(args, model, test_dataset, test_dataloader, device)
+    test(args, model, test_dataset, test_dataloader)
 

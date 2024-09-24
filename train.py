@@ -71,7 +71,7 @@ if __name__ == "__main__":
     parser.add_argument('--num_workers', type=int, default=32, help='number of workers')
     parser.add_argument('--img_size', type=int, default=224, help='image size')
     parser.add_argument('--flag', type=int, default=2, help="1 for dice; 2 for dice and hd")
-    parser.add_argument("--root_path", type=str, default='./datasets/preprocess/bbox/test/test_bbox_sam_Thyroid_tg3k', help='path to dataset')
+    parser.add_argument("--root_path", type=str, default='./datasets/preprocess/bbox/test/train_sam_polyp', help='path to dataset')
     parser.add_argument("--weight_decay", type=float, default=1e-5, help='weight decay')
     parser.add_argument("--save_interval", type=int, default=1, help='save interval')
     parser.add_argument("--seed", type=int, default=1234)
