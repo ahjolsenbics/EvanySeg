@@ -35,7 +35,7 @@
 
 workflow
 ![workflow](utils\readme_img\workflow.png)
-
+EvanySeg is a companion model to SAM and its variants, designed to enhance reliability and trustworthiness in the deployment of SAM (and its variants) on medical images.
 
 
 
