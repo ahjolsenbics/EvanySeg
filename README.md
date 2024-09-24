@@ -30,16 +30,11 @@
 
 ## Introduce
 
-<<<<<<< HEAD
+
 ## Framework
 
-workflow
 
-![workflow](image/workflow.png)
 =======
-
-## Framework
->>>>>>> b4d1b43b9bec3cddfd9f2fc8860433714b283f7b
 
 
 ## Dataset
