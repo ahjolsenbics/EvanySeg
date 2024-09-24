@@ -6,6 +6,7 @@
         <a href="#-framework">Framework</a> |
         <a href="#-Installation">Installation</a> |
         <a href="#-Getting Started">Getting Started</a> |
+        <a href="#-Getting Started">Demo</a> |
         <a href="#-Getting Started">Reference</a> |
         <a href="https://github.com/ahjolsenbics/EvanySeg">Page Main</a>
     <p>
@@ -29,7 +30,9 @@
 
 ## Introduce
 
+
 ## Framework
+
 
 ## Dataset
 The EvanySeg model was trained based on 107,055 2D images, accompanied by 206,596 object-level ground truth masks. Segmentation predictions for training the EvanySeg model were generated using SAM, MedSAM, and SAM-Med2D. In total, 619,044 object-level image-mask pairs were utilized, with each image and corresponding mask resized to 244 × 244 pixels for training the segmentation evaluation model.
@@ -67,7 +70,9 @@ The data set needs to be sorted into Poly form below datasets / raw. After prepr
 
 Note: "i" represents the index of the connected domain being processed in the current iteration, "model_name" indicates the model SAM, MedicalSAM and SAM-Med2D, "directory" represents the directory name of the dataset such as Polyp, "part" indicates the subdirectory, sample_name, "sample_name" indicates the original name of the image
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ahjolsenbics&layout=compact&theme=tokyonight)
+```
+ ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ahjolsenbics&layout=compact&theme=tokyonight)
+```
 
 ## Getting Started
 #### Installation
@@ -93,6 +98,7 @@ python train.py
 python test.py
 ```
 
+## Demo
 
 
 ## Reference
