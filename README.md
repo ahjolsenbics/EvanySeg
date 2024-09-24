@@ -6,7 +6,7 @@
     <p>
         <a href="https://github.com/ahjolsenbics/EvanySeg/blob/main/README.md#Framework">Framework</a> |
         <a href="#-Citing Us">Citing Us</a> |
-        <a href="#-Installation">Installation</a> |
+        <a href="#-Dataset">Dataset</a> |
         <a href="#-Getting Started">Getting Started</a> |
         <a href="#-Demo">Demo</a> |
         <a href="https://github.com/ahjolsenbics/EvanySeg">Page Main</a>
