@@ -2,10 +2,11 @@
 
 <h4 align="center">
     <p>
-        <a href="https://github.com/ahjolsenbics/EvanySeg/blob/main/README.md#dataset">Datasets</a> |
+        <a href="https://github.com/ahjolsenbics/EvanySeg/blob/main/README.md#Introduce">Introduce</a> |
         <a href="#-framework">Framework</a> |
         <a href="#-Installation">Installation</a> |
         <a href="#-Getting Started">Getting Started</a> |
+        <a href="#-Getting Started">Reference</a> |
         <a href="https://github.com/ahjolsenbics/EvanySeg">Page Main</a>
     <p>
 </h4>
@@ -25,6 +26,10 @@
         <img alt="License" src="https://img.shields.io/github/license/confident-ai/deepeval.svg?color=yellow">
     </a>
 </p>
+
+## Introduce
+
+## Framework
 
 ## Dataset
 The EvanySeg model was trained based on 107,055 2D images, accompanied by 206,596 object-level ground truth masks. Segmentation predictions for training the EvanySeg model were generated using SAM, MedSAM, and SAM-Med2D. In total, 619,044 object-level image-mask pairs were utilized, with each image and corresponding mask resized to 244 × 244 pixels for training the segmentation evaluation model.
@@ -64,14 +69,8 @@ Note: "i" represents the index of the connected domain being processed in the cu
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ahjolsenbics&layout=compact&theme=tokyonight)
 
-
-
-
-## Framework
-
-
-## Installation
-
+## Getting Started
+#### Installation
 First download the EvanySeg cheeckpoints from [ResNet101 checkpoint](https://drive.google.com/file/d/1Hj7LwH8zIJUaiQmDOkHM6JUgxkoTyGpu/view?usp=drive_link) and  [Vit-b checkpoint](https://drive.google.com/file/d/1S_s8zUgv8V2F8LP_h_4HM96j1LWHzjBB/view?usp=drive_link). 
 
 
@@ -82,8 +81,6 @@ Download the datasets and pre-trained models to the corresponding folders, and c
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
 pip install -r requirements.txt
 ```
-
-## Getting Started
 #### Train
 
 ```python
