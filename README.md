@@ -52,12 +52,19 @@ The data set needs to be sorted into Poly form below datasets / raw. After prepr
 
 Note: "i" represents the index of the connected domain being processed in the current iteration, "model_name" indicates the model SAM, MedicalSAM and SAM-Med2D, "directory" represents the directory name of the dataset such as Polyp, "part" indicates the subdirectory, sample_name, "sample_name" indicates the original name of the image
 
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ahjolsenbics&layout=compact&theme=tokyonight)
+
+
+
+
 ## Framework
 
 
-## Getting Started
+## Installation
 
 First download the cheeckpoints from [ResNet101 checkpoint](https://drive.google.com/file/d/1Hj7LwH8zIJUaiQmDOkHM6JUgxkoTyGpu/view?usp=drive_link) and  [Vit-b checkpoint](https://drive.google.com/file/d/1S_s8zUgv8V2F8LP_h_4HM96j1LWHzjBB/view?usp=drive_link). 
+
+
 
 Download the datasets and pre-trained models to the corresponding folders, and configure the environment.
 
@@ -66,17 +73,16 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 pip install -r requirements.txt
 ```
 
+## Getting Started
 #### Train
 
 ```python
-python preprocessing.py
 python train.py
 ```
 
 #### test
 
 ```python
-python preprocessing.py
 python test.py
 ```
 
