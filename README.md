@@ -39,8 +39,8 @@ EvanySeg is a companion model to SAM and its variants, designed to enhance relia
 If you're interested in learning more about EvanySeg, we would appreciate your references to [our paper](https://arxiv.org/pdf/2409.14874).
 
 ## Dataset
-The EvanySeg model was trained based on 107,055 2D images, accompanied by 206,596 object-level ground truth masks. Segmentation predictions for training the EvanySeg model were generated using SAM, MedSAM, and SAM-Med2D. In total, 619,044 object-level image-mask pairs were utilized, with each image and corresponding mask resized to 244 × 244 pixels for training the segmentation evaluation model.
-
+The EvanySeg model was trained based on 2D images, accompanied by object-level ground truth masks. Segmentation predictions for training the EvanySeg model were generated using SAM, MedSAM, and SAM-Med2D.    
+  
 The filesystem hierarchy of the dataset is as follows:
 
 ```
