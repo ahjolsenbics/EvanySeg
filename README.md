@@ -102,3 +102,4 @@ python train.py
 ```
 
 ## Demo
+ [Demo](https://modelscope.cn/studios/ahjolsenbi/EvanySeg)
