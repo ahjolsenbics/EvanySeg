@@ -1,4 +1,6 @@
-# Evanyseg
+<p align="center">
+    <h1 align="center">Towards Ground-truth-free Evaluation of Any Segmentation in Medical Images*</h1>
+</p>
 
 <h4 align="center">
     <p>
