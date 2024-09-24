@@ -2,11 +2,11 @@
 
 <h4 align="center">
     <p>
-        <a href="https://docs.confident-ai.com/docs/getting-started">Documentation</a> |
-        <a href="#-metrics-and-features">Metrics and Features</a> |
-        <a href="#-quickstart">Getting Started</a> |
-        <a href="#-integrations">Integrations</a> |
-        <a href="https://confident-ai.com">Confident AI</a>
+        <a href="https://github.com/ahjolsenbics/EvanySeg/blob/main/README.md#dataset">Datasets</a> |
+        <a href="#-framework">Framework</a> |
+        <a href="#-Installation">Installation</a> |
+        <a href="#-Getting Started">Getting Started</a> |
+        <a href="https://github.com/ahjolsenbics/EvanySeg">Page Main</a>
     <p>
 </h4>
 
@@ -15,8 +15,8 @@
     <a href="https://github.com/confident-ai/deepeval/releases">
         <img alt="GitHub release" src="https://img.shields.io/github/release/confident-ai/deepeval.svg?color=violet">
     </a>
-    <a href="https://colab.research.google.com/drive/1PPxYEBa6eu__LquGoFFJZkhYgWVYE6kh?usp=sharing">
-        <img alt="Try Quickstart in Colab" src="https://colab.research.google.com/assets/colab-badge.svg">
+    <a href="https://drive.google.com/drive/folders/1Ngme9APByRTAOOsLGtwzVYzS2Il4jc1n?usp=drive_link">
+        <img alt="Try Download EvanySeg checkpoints" src="https://colab.research.google.com/assets/colab-badge.svg">
     </a>
     <a href="https://github.com/confident-ai/deepeval/blob/master/LICENSE.md">
         <img alt="License" src="https://img.shields.io/github/license/confident-ai/deepeval.svg?color=yellow">
