@@ -80,13 +80,13 @@ Note: "i" represents the index of the connected domain being processed in the cu
 ```
 
 ## Getting Started
-#### Download
+### Download
 Please download the EvanySeg cheeckpoints from [ResNet101 checkpoint](https://drive.google.com/file/d/1Hj7LwH8zIJUaiQmDOkHM6JUgxkoTyGpu/view?usp=drive_link) and  [Vit-b checkpoint](https://drive.google.com/file/d/1S_s8zUgv8V2F8LP_h_4HM96j1LWHzjBB/view?usp=drive_link). 
 
 The example datasets are  provided [train.zip](https://drive.google.com/file/d/1zXRUoL2BJzuUDszQb0M3SOyC3-O2STn1/view?usp=drive_link) and [test.zip](https://drive.google.com/file/d/1jfd-5et6kgPqr4stIEA_uYX62P3f8GRI/view?usp=drive_link)
 
 
-#### Installation
+### Installation
 Download the datasets and pre-trained models to the corresponding folders, and configure the environment.
 
 ```python
@@ -94,13 +94,13 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 pip install -r requirements.txt
 ```
 
-#### Test
+### Test
 
 ```python
 python test.py
 ```
 
-#### Train
+### Train
 
 ```python
 python train.py
