@@ -4,11 +4,10 @@
 
 <h4 align="center">
     <p>
-        <a href="https://github.com/ahjolsenbics/EvanySeg/blob/main/README.md#Introduce">Introduce</a> |
-        <a href="#-framework">Framework</a> |
+        <a href="https://github.com/ahjolsenbics/EvanySeg/blob/main/README.md#Framework">Framework</a> |
+        <a href="#-Citing Us">Citing Us</a> |
         <a href="#-Installation">Installation</a> |
         <a href="#-Getting Started">Getting Started</a> |
-        <a href="#-Citing Us">Citing Us</a> |
         <a href="#-Demo">Demo</a> |
         <a href="https://github.com/ahjolsenbics/EvanySeg">Page Main</a>
     <p>
@@ -30,16 +29,14 @@
     </a>
 </p>
 
-## Introduce
-
-
 ## Framework
 
 ###### workflow
 ![workflow](utils\readme_img\workflow.png)
 EvanySeg is a companion model to SAM and its variants, designed to enhance reliability and trustworthiness in the deployment of SAM (and its variants) on medical images.
 
-
+## Citing Us
+If you're interested in learning more about EvanySeg, we would appreciate your references to [our paper](https://arxiv.org/pdf/2409.14874).
 
 ## Dataset
 The EvanySeg model was trained based on 107,055 2D images, accompanied by 206,596 object-level ground truth masks. Segmentation predictions for training the EvanySeg model were generated using SAM, MedSAM, and SAM-Med2D. In total, 619,044 object-level image-mask pairs were utilized, with each image and corresponding mask resized to 244 × 244 pixels for training the segmentation evaluation model.
@@ -47,29 +44,28 @@ The EvanySeg model was trained based on 107,055 2D images, accompanied by 206,59
 The filesystem hierarchy of the dataset is as follows:
 
 ```
-├─EvanySeg
-│  ├─checkpoints
-│  ├─results
-│  ├─datasets
-│  │  ├─preprocess
-│  │  │  └─train_bbox_Polyp
-│  │  │      ├─crop_image
-│  │  │      │      0_SAM_Polyp_train_175.png
-│  │  │      ├─crop_mask
-│  │  │      │      0_SAM_Polyp_train_175.png
-│  │  │      └─crop_predict
-│  │  │      │      0_SAM_Polyp_train_175.png
-│  │  └─raw          
-│  │      └─Polyp
-│  │          └─train
-│  │              ├─images
-│  │              │      175.png
-│  │              └─masks
-│  │                     175.png
+📁 EvanySeg
+├── 📁 checkpoints
+├── 📁 results
+├── 📁 datasets
+│   ├── 📁 preprocess
+│   │   └── 📁 train_bbox_Polyp
+│   │       ├── 📁 crop_image
+│   │       │       0_SAM_Polyp_train_175.png
+│   │       ├── 📁 crop_mask
+│   │       │       0_SAM_Polyp_train_175.png
+│   │       └── 📁 crop_predict
+│   │       │       0_SAM_Polyp_train_175.png
+│   └── 📁 raw          
+│       └── 📁 Polyp
+│           └── 📁 train
+│               ├── 📁 images
+│               │       175.png
+│               └── 📁 masks
+│                       175.png
+
 ```
-
-The data set needs to be sorted into Poly form below datasets / raw. After preprocessing.py processing, it will become the form data below datasets / preprocess directory. The processed data naming rules are as follows:
-
+ The processed data naming rules are as follows:
 ```
 ├─crop_images
        {i}_{model_name}_{directory}_{part}_{sample_name}
@@ -77,9 +73,6 @@ The data set needs to be sorted into Poly form below datasets / raw. After prepr
 
 Note: "i" represents the index of the connected domain being processed in the current iteration, "model_name" indicates the model SAM, MedicalSAM and SAM-Med2D, "directory" represents the directory name of the dataset such as Polyp, "part" indicates the subdirectory, sample_name, "sample_name" indicates the original name of the image
 
-```
- ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ahjolsenbics&layout=compact&theme=tokyonight)
-```
 
 ## Getting Started
 ### Download
@@ -107,8 +100,5 @@ python test.py
 ```python
 python train.py
 ```
-
-## Citing Us
-If you're interested in learning more about EvanySeg, we would appreciate your references to [our paper](https://arxiv.org/pdf/2409.14874).
 
 ## Demo
