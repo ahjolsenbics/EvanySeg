@@ -34,7 +34,7 @@
 ## Framework
 
 workflow
-![workflow](image/workflow.png)
+![workflow](image\workflow.png)
 
 
 ## Dataset
