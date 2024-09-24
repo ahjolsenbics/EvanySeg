@@ -5,7 +5,7 @@ The EvanySeg model was trained based on 107,055 2D images, accompanied by 206,59
 The filesystem hierarchy of the dataset is as follows:
 
 ```
-├─QAAS_Med
+├─EvanySeg
 │  ├─checkpoints
 │  ├─results
 │  ├─datasets
@@ -13,34 +13,17 @@ The filesystem hierarchy of the dataset is as follows:
 │  │  │  └─train_bbox_Polyp
 │  │  │      ├─crop_image
 │  │  │      │      0_SAM_Polyp_train_175.png
-│  │  │      │      0_SAM_Med2D_Polyp_train_175.png
-│  │  │      │      0_MedSAM_bbox_Polyp_train_175.png
-│  │  │      │      . . .
-│  │  │      │      
 │  │  │      ├─crop_mask
 │  │  │      │      0_SAM_Polyp_train_175.png
-│  │  │      │      0_SAM_Med2D_Polyp_train_175.png
-│  │  │      │      0_MedSAM_bbox_Polyp_train_175.png
-│  │  │      │      . . .
-│  │  │      │      
 │  │  │      └─crop_predict
 │  │  │      │      0_SAM_Polyp_train_175.png
-│  │  │      │      0_SAM_Med2D_Polyp_train_175.png
-│  │  │      │      0_MedSAM_bbox_Polyp_train_175.png
-│  │  │             . . .
-│  │  │              
 │  │  └─raw          
 │  │      └─Polyp
 │  │          └─train
 │  │              ├─images
 │  │              │      175.png
-│  │              │      . . .
-│  │              │      
 │  │              └─masks
 │  │                     175.png
-│  │                     . . .
-│  │         
-
 ```
 
 The data set needs to be sorted into Poly form below datasets / raw. After preprocessing.py processing, it will become the form data below datasets / preprocess directory. The processed data naming rules are as follows:
