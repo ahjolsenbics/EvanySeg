@@ -8,8 +8,8 @@
         <a href="#-framework">Framework</a> |
         <a href="#-Installation">Installation</a> |
         <a href="#-Getting Started">Getting Started</a> |
-        <a href="#-Getting Started">Demo</a> |
-        <a href="#-Getting Started">Reference</a> |
+        <a href="#-Citing Us">Citing Us</a> |
+        <a href="#-Demo">Demo</a> |
         <a href="https://github.com/ahjolsenbics/EvanySeg">Page Main</a>
     <p>
 </h4>
