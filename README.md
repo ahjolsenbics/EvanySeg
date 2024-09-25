@@ -84,7 +84,7 @@ Download the datasets and pre-trained models to the corresponding folders, and c
 #### Download
 Please download the EvanySeg result checkpoints to the result directory from [ResNet101 result](https://drive.google.com/file/d/1Hj7LwH8zIJUaiQmDOkHM6JUgxkoTyGpu/view?usp=drive_link) and  [Vit-b result](https://drive.google.com/file/d/1S_s8zUgv8V2F8LP_h_4HM96j1LWHzjBB/view?usp=drive_link).
 
-The example datasets are  provided [train.zip](https://drive.google.com/file/d/1zXRUoL2BJzuUDszQb0M3SOyC3-O2STn1/view?usp=drive_link) and [test.zip](https://drive.google.com/file/d/1jfd-5et6kgPqr4stIEA_uYX62P3f8GRI/view?usp=drive_link)
+The example datasets are  provided [train.zip](https://drive.google.com/file/d/1gkh0gqIf_oeLUuKo2zYbecAb1vcZdLcH/view?usp=drive_link) and [test.zip](https://drive.google.com/file/d/1oxuHYhFLc0x2Yx7x9Lh73XljPK8ixnr_/view?usp=drive_link)
 
 
 #### Installation
