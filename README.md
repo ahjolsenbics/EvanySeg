@@ -37,9 +37,8 @@
  
 ## Framework
 
-###### workflow
+EvanySeg is a companion model to SAM and its variants, designed to enhance reliability and trustworthiness in the deployment of SAM (and its variants) on medical images.  
 ![workflow](utils\readme_img\workflow.png)
-EvanySeg is a companion model to SAM and its variants, designed to enhance reliability and trustworthiness in the deployment of SAM (and its variants) on medical images.
 
 ## Citing Us
 If you're interested in learning more about EvanySeg, we would appreciate your references to [our paper](https://arxiv.org/pdf/2409.14874).
