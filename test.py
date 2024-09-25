@@ -57,7 +57,7 @@ if __name__ == "__main__":
     parser.add_argument('--num_workers', type=int, default=4, help='number of workers')
     parser.add_argument('--img_size', type=int, default=224, help='image size')
     parser.add_argument('--flag', type=int, default=1, help="1 for dice; 2 for dice and hd")
-    parser.add_argument("--dataset_path", type=str, default='./datasets/preprocess/test_sam_polyp', help='path to dataset')
+    parser.add_argument("--dataset_path", type=str, default='./datasets/preprocess/test_sam_Polyp', help='path to dataset')
     parser.add_argument("--result_path", type=str, default="./result")
     parser.add_argument("--model_path", type=str, default='./result/ViT_base_bbox_dice.pth')
     parser.add_argument("--classification_model_name", type=str, default="vit_base_224", help='[ resnet50 | resnet101 | vit_base_224 | vit_large_224 ]')
