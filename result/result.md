@@ -36,24 +36,15 @@
 
 
 
-## Checkpoints
+## result
 
-Please download the required models to the corresponding locations based on the tree diagram below.
+Please download the required models to the corresponding locations based on the tree diagram belo
 
 ```
 ├─EvanySeg
-│  ├─checkpoints
-│  │  ├─vit_base
-│  │  │  └─config.json
-│  │  │  └─pytorch_model.bin
-│  │  │
-│  │  ├─vit_large
-│  │  │  └─config.json
-│  │  │  └─pytorch_model.bin
-│  │  │
-│  │  ├─sam_vit_h_4b8939.pth
-│  │  ├─medsam_vit_b.pth
-│  │  ├─sam-med2d_b.pth
+│  ├─result
+│  │  └─ResNet101_bbox_dice.pth
+│  │  └─ViT_base_bbox_dice.pth
 
 ```
 
@@ -62,4 +53,3 @@ Please download the required models to the corresponding locations based on the 
 ## Citing Us
 
 If you're interested in learning more about EvanySeg, we would appreciate your references to [our paper](https://arxiv.org/pdf/2409.14874).
-

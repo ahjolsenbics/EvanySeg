@@ -34,7 +34,7 @@
 
 
 </p>
- 
+
 ## Framework
 
 EvanySeg is a companion model to SAM and its variants, designed to enhance reliability and trustworthiness in the deployment of SAM (and its variants) on medical images.  
@@ -45,7 +45,7 @@ If you're interested in learning more about EvanySeg, we would appreciate your r
 
 ## Dataset
 The EvanySeg model was trained based on 2D images, accompanied by object-level ground truth masks. Segmentation predictions for training the EvanySeg model were generated using SAM, MedSAM, and SAM-Med2D.    
-  
+
 The filesystem hierarchy of the dataset is as follows:
 
 ```
