@@ -38,7 +38,7 @@
 
 ## result
 
-Please download the required models to the corresponding locations based on the tree diagram belo
+Please download the required models to the corresponding locations based on the tree diagram below.
 
 ```
 ├─EvanySeg
