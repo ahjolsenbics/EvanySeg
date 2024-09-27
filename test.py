@@ -4,7 +4,6 @@ import torch
 from torchvision import transforms
 from torch.utils.data import DataLoader
 from torchvision.models import resnet50, resnet101
-from regression_metric import  plot_regression_metric
 from torch import optim
 from torch.optim import lr_scheduler
 from dataset import MyDataset
