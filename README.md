@@ -77,7 +77,7 @@ The filesystem hierarchy of the dataset is as follows:
        {i}_{model_name}_{directory}_{part}_{sample_name}
 ```
 
-Note: "i" represents the index of the connected domain being processed in the current iteration, "model_name" indicates the model SAM, MedicalSAM and SAM-Med2D, "directory" represents the directory name of the dataset such as Polyp, "part" indicates the subdirectory, sample_name, "sample_name" indicates the original name of the image
+Note: "i" represents the index of the connected domain being processed in the current iteration, "model_name" indicates the model SAM, MedSAM and SAM_Med2D, "directory" represents the directory name of the dataset such as Polyp, "part" indicates the subdirectory, sample_name, "sample_name" indicates the original name of the image
 
 
 ## Getting Started
