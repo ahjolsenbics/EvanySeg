@@ -106,4 +106,4 @@ python train.py
 ```
 
 ## Demo
- [EvanySeg Demo](https://huggingface.co/spaces/ahjolsenbi/EvanySeg)
+Online demo: coming soon.
