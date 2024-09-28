@@ -16,7 +16,7 @@
 
 
 <p align="center">
-    <a href="https://github.com/facebookresearch/segment-anything/blob/main/LICENSE">
+    <a href="https://github.com/facebookresearch/segment-anything">
         <img alt="Model" src="https://img.shields.io/badge/Model-SAM%20and%20its%20variants-violet.svg">
     </a>
     <a href="https://drive.google.com/drive/folders/1Ngme9APByRTAOOsLGtwzVYzS2Il4jc1n?usp=drive_link">
@@ -28,7 +28,7 @@
     <a href="https://www.python.org/">
         <img alt="Build" src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg?color=purple">
     </a>
-    <a href="https://github.com/confident-ai/deepeval/blob/master/LICENSE.md">
+    <a href="https://github.com/facebookresearch/segment-anything/blob/main/LICENSE">
         <img alt="License" src="https://img.shields.io/github/license/confident-ai/deepeval.svg?color=yellow">
     </a>
 
