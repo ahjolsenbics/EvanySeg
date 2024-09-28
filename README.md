@@ -52,7 +52,7 @@ The filesystem hierarchy of the dataset is as follows:
 ```
 📁 EvanySeg
 ├── 📁 checkpoints
-├── 📁 results
+├── 📁 result
 ├── 📁 datasets
 │   ├── 📁 preprocess
 │   │   └── 📁 train_bbox_Polyp
