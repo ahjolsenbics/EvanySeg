@@ -22,17 +22,15 @@
     <a href="https://drive.google.com/drive/folders/1Ngme9APByRTAOOsLGtwzVYzS2Il4jc1n?usp=drive_link">
         <img alt="Try Download EvanySeg checkpoints" src="https://colab.research.google.com/assets/colab-badge.svg">
     </a>
-    <a href="[https://motacommunity.com/LICENSE](https://github.com/modelscope)">
-        <img alt="OpenDemo" src="https://img.shields.io/badge/Open%20Demo-MotaCommunity-turquoise.svg">
+    <a href="https://huggingface.co/spaces">
+        <img alt="OpenDemo" src="https://img.shields.io/badge/Open%20Demo-HuggingFace-turquoise.svg?color=yellow">
     </a>
     <a href="https://www.python.org/">
         <img alt="Build" src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg?color=purple">
     </a>
     <a href="https://github.com/facebookresearch/segment-anything/blob/main/LICENSE">
-        <img alt="License" src="https://img.shields.io/github/license/confident-ai/deepeval.svg?color=yellow">
+        <img alt="License" src="https://img.shields.io/github/license/confident-ai/deepeval.svg?color=turquoise">
     </a>
-
-
 </p>
 
 ## Framework
@@ -108,4 +106,4 @@ python train.py
 ```
 
 ## Demo
- [Demo](https://modelscope.cn/studios/ahjolsenbi/EvanySeg)
+ [EvanySeg Demo](https://huggingface.co/spaces/ahjolsenbi/EvanySeg)
