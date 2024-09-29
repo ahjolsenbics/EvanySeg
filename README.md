@@ -79,7 +79,7 @@ Note: "i" represents the index of the connected domain being processed in the cu
 
 
 ## Getting Started
-Download the datasets and pre-trained models to the corresponding folders, and configure the environment.
+Download the datasets and pre-trained models to the corresponding folders, and configure the environment.If you plan to train your own dataset,please preprocess it first using the preprocessing.py file.
 #### Download
 Please download the EvanySeg result checkpoints to the result directory from [ResNet101 result](https://drive.google.com/file/d/1Hj7LwH8zIJUaiQmDOkHM6JUgxkoTyGpu/view?usp=drive_link) and  [Vit-b result](https://drive.google.com/file/d/1S_s8zUgv8V2F8LP_h_4HM96j1LWHzjBB/view?usp=drive_link).
 
