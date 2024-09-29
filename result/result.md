@@ -43,11 +43,12 @@
 Please download the required models to the corresponding locations based on the tree diagram below.
 
 ```
-├─EvanySeg
-│  ├─result
-│  │  └─ResNet101_bbox_dice.pth
-│  │  └─ViT_base_bbox_dice.pth
-
+📁 EvanySeg
+├── 📁 result
+│   └── 📁 exp_1          
+│       └── 📁 checkpoints
+│               ├── ResNet101_bbox_dice.pth
+│               └── ViT_base_bbox_dice.pth
 ```
 
 
