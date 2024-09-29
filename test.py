@@ -16,7 +16,6 @@ import pandas as pd
 from tools import *
 from tqdm import tqdm
 from utils.logger import Logger
-os.environ["CUDA_VISIBLE_DEVICES"] = "0, 1, 2, 3"
 
 
 def test(args, model, test_dataset, test_dataloader):
