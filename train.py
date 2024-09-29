@@ -70,7 +70,7 @@ if __name__ == "__main__":
     parser.add_argument('--batch_size', type=int, default=128, help='batch size')
     parser.add_argument('--num_workers', type=int, default=32, help='number of workers')
     parser.add_argument('--img_size', type=int, default=224, help='image size')
-    parser.add_argument('--flag', type=int, default=2, help="1 for dice; 2 for dice and hd")
+    parser.add_argument('--flag', type=int, default=1, help="1 for dice; 2 for dice and hd")
     parser.add_argument("--root_path", type=str, default='./datasets/preprocess/train_sam_Polyp', help='path to dataset')
     parser.add_argument("--weight_decay", type=float, default=1e-5, help='weight decay')
     parser.add_argument("--save_interval", type=int, default=1, help='save interval')
