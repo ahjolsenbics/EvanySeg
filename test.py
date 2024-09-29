@@ -47,7 +47,6 @@ def test(args, model, test_dataset, test_dataloader):
 
     csv_name = f"{args.result_path}/{os.path.basename(args.dataset_path)}_{args.classification_model_name}.csv"
     df.to_csv(csv_name, index=False)
-    plot_regression_metric(csv_name, args.result_path, args.flag)
 
 
 if __name__ == "__main__":
