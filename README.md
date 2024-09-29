@@ -53,7 +53,7 @@ The filesystem hierarchy of the dataset is as follows:
 ├── 📁 result
 ├── 📁 datasets
 │   ├── 📁 preprocess
-│   │   └── 📁 train_bbox_Polyp
+│   │   └── 📁 train_sam_Polyp
 │   │       ├── 📁 crop_image
 │   │       │       0_SAM_Polyp_train_175.png
 │   │       ├── 📁 crop_mask
