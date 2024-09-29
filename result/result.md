@@ -45,12 +45,11 @@ Please download the required models to the corresponding locations based on the 
 ```
 📁 EvanySeg
 ├── 📁 result
-│   └── 📁 exp_1          
+│   └── 📁 exp_1
 │       └── 📁 checkpoints
-│               ├── ResNet101_bbox_dice.pth
-│               └── ViT_base_bbox_dice.pth
+│           ├── ResNet101_bbox_dice.pth
+│           └── ViT_base_bbox_dice.pth
 ```
-
 
 
 ## Citing Us
