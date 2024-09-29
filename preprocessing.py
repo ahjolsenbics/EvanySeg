@@ -109,7 +109,7 @@ def preprocessing(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--model_name', type=str, nargs='+', default=["SAM"])  # "SAM", "SAM_Med2D", "MedSAM_bbox"
-    parser.add_argument("--save_root", type=str, default="./datasets/preprocess/bbox/test_bbox_sam_ddti")
+    parser.add_argument("--save_root", type=str, default="./datasets/preprocess/test_sam_DDTI")
     parser.add_argument("--prompt", type=str, default="bbox")
     args = parser.parse_args()
     preprocessing(args)
