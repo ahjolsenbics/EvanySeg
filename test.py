@@ -6,7 +6,7 @@ from torch.utils.data import DataLoader
 from torchvision.models import resnet50, resnet101
 from torch import optim
 from torch.optim import lr_scheduler
-from dataset import MyDataset
+from dataset import MyDataset 
 import torch.distributed as dist
 import argparse
 import torch.nn as nn
