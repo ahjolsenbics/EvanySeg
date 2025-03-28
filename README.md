@@ -47,6 +47,16 @@ The filesystem hierarchy of the dataset is as follows:
 ```
 📁 EvanySeg
 ├── 📁 checkpoints
+│   ├── 📁 vit_base
+│       │    config.json
+│       │    pytorch_model.bin
+│   ├── 📁 vit_large
+│       │    config.json
+│       │    pytorch_model.bin
+│   ├── 📁 sam_with_variants
+│       │    sam_vit_h_4b8939.pth
+│       │    medsam_vit_b.pth
+│       │    sam-med2d_b.pth
 ├── 📁 result
 ├── 📁 datasets
 │   ├── 📁 preprocess
@@ -78,13 +88,15 @@ Note: "i" represents the index of the connected domain being processed in the cu
 ## Getting Started
 Download the datasets and pre-trained models to the corresponding folders, and configure the environment.If you plan to train your own dataset,please preprocess it first using the preprocessing.py file.
 #### Download
-Please download the EvanySeg result checkpoints to the result directory from [ResNet101 result](https://drive.google.com/file/d/1Hj7LwH8zIJUaiQmDOkHM6JUgxkoTyGpu/view?usp=drive_link) and  [Vit-b result](https://drive.google.com/file/d/1S_s8zUgv8V2F8LP_h_4HM96j1LWHzjBB/view?usp=drive_link).
+Please download the EvanySeg result checkpoints to the result directory from [ResNet101 Result](https://drive.google.com/file/d/1Hj7LwH8zIJUaiQmDOkHM6JUgxkoTyGpu/view?usp=drive_link) and  [Vit-b Result](https://drive.google.com/file/d/1S_s8zUgv8V2F8LP_h_4HM96j1LWHzjBB/view?usp=drive_link).
 
-The example datasets are  provided [train.zip](https://drive.google.com/file/d/1gkh0gqIf_oeLUuKo2zYbecAb1vcZdLcH/view?usp=drive_link) and [test.zip](https://drive.google.com/file/d/1oxuHYhFLc0x2Yx7x9Lh73XljPK8ixnr_/view?usp=drive_link)
+The example datasets are  provided [Train.zip](https://drive.google.com/file/d/1gkh0gqIf_oeLUuKo2zYbecAb1vcZdLcH/view?usp=drive_link) and [Test.zip](https://drive.google.com/file/d/1oxuHYhFLc0x2Yx7x9Lh73XljPK8ixnr_/view?usp=drive_link)
 
+Other required model download Offical links (models related to ViT and SAM) :  SAM：[SAM model](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth) , MedSAM：[MedSAM](https://drive.google.com/file/d/1UAmWL88roYR7wKlnApw5Bcuzf2iQgk6_/view?usp=drive_link) , SAM-Med2D：[SAM-Med2D](https://drive.google.com/file/d/1ARiB5RkSsWmAB_8mqWnwDF8ZKTtFwsjl/view) , ViT-Base: [ViT-Base](https://huggingface.co/google/vit-base-patch16-224/tree/main) , ViT-Large: [ViT-Large](https://huggingface.co/google/vit-large-patch16-224/tree/main) .
 
 #### Installation
 
+Recommendation: Python version around 3.9, please do not use a version that is too high.
 ```python
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
 pip install -r requirements.txt
