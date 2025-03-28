@@ -47,16 +47,6 @@ The filesystem hierarchy of the dataset is as follows:
 ```
 📁 EvanySeg
 ├── 📁 checkpoints
-│   ├── 📁 vit_base
-│       │    config.json
-│       │    pytorch_model.bin
-│   ├── 📁 vit_large
-│       │    config.json
-│       │    pytorch_model.bin
-│   ├── 📁 sam_with_variants
-│       │    sam_vit_h_4b8939.pth
-│       │    medsam_vit_b.pth
-│       │    sam-med2d_b.pth
 ├── 📁 result
 ├── 📁 datasets
 │   ├── 📁 preprocess
