@@ -50,9 +50,10 @@ Please download the required models to the corresponding locations based on the 
 │   │   ├── config.json
 │   │   └── pytorch_model.bin
 │   │
-│   ├── sam_vit_h_4b8939.pth
-│   ├── medsam_vit_b.pth
-│   └── sam-med2d_b.pth
+│   ├── 📁 sam_with_variants
+│       ├──  sam_vit_h_4b8939.pth
+│       ├──  medsam_vit_b.pth
+│       └──  sam-med2d_b.pth
 ```
 
 
