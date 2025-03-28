@@ -22,15 +22,15 @@ from transformers import ViTForImageClassification, ViTModel
 def load_model(model_name):
     if model_name == "SAM":
         from SAM.segment_anything import sam_model_registry, SamPredictor
-        sam = sam_model_registry["vit_h"](checkpoint="./checkpoints/sam_vit_h_4b8939.pth").cuda()
+        sam = sam_model_registry["vit_h"](checkpoint="./checkpoints/sam_with_variants/sam_vit_h_4b8939.pth").cuda()
         predictor = SamPredictor(sam)
     elif model_name == "MedSAM_bbox":
         from SAM.segment_anything import sam_model_registry, SamPredictor
-        sam = sam_model_registry["vit_b"](checkpoint="./checkpoints/medsam_vit_b.pth").cuda()
+        sam = sam_model_registry["vit_b"](checkpoint="./checkpoints/sam_with_variants/medsam_vit_b.pth").cuda()
         predictor = SamPredictor(sam)
     elif model_name == "MedSAM_point":
         from SAM.segment_anything import sam_model_registry, SamPredictor
-        sam = sam_model_registry["vit_b"](checkpoint="./checkpoints/medsam_point_prompt_flare22.pth").cuda()
+        sam = sam_model_registry["vit_b"](checkpoint="./checkpoints/sam_with_variants/medsam_point_prompt_flare22.pth").cuda()
         predictor = SamPredictor(sam)
     elif model_name == "SAM_Med2D":
         from SAM_Med2D.segment_anything import sam_model_registry
@@ -39,7 +39,7 @@ def load_model(model_name):
         opt = argparse.Namespace()
         opt.image_size = 256
         opt.encoder_adapter = True
-        opt.sam_checkpoint = "./checkpoints/sam-med2d_b.pth"
+        opt.sam_checkpoint = "./checkpoints/sam_with_variants/sam-med2d_b.pth"
         model = sam_model_registry["vit_b"](opt).to(device)
         predictor = SammedPredictor(model)
     else:
