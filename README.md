@@ -78,7 +78,7 @@ Note: "i" represents the index of the connected domain being processed in the cu
 ## Getting Started
 Download the datasets and pre-trained models to the corresponding folders, and configure the environment.If you plan to train your own dataset,please preprocess it first using the preprocessing.py file.
 #### Download
-Please download the EvanySeg result checkpoints to the result directory from [ResNet101 Result](https://drive.google.com/file/d/1Hj7LwH8zIJUaiQmDOkHM6JUgxkoTyGpu/view?usp=drive_link) and  [Vit-b Result](https://drive.google.com/file/d/1S_s8zUgv8V2F8LP_h_4HM96j1LWHzjBB/view?usp=drive_link). (Currently, only the model for calculating Dice has been open-sourced. Therefore, during testing, please keep the flag as 1)
+Please download the EvanySeg result checkpoints to the result directory from [ResNet101_Bbox_Dice](https://drive.google.com/file/d/1Hj7LwH8zIJUaiQmDOkHM6JUgxkoTyGpu/view?usp=drive_link)、[ViT-B_Bbox_Dice](https://drive.google.com/file/d/1S_s8zUgv8V2F8LP_h_4HM96j1LWHzjBB/view?usp=drive_link) and [ViT-B_Bbox_Dice_HD](https://drive.google.com/file/d/1vo1zFWHhtpWUB7UA3hJ3eaUnL0LaFexK/view?usp=drive_link). (Currently, only part of the models have been open-sourced, and we will continue to open-source the remaining models in the future.)
 
 The example datasets are  provided [Train.zip](https://drive.google.com/file/d/1gkh0gqIf_oeLUuKo2zYbecAb1vcZdLcH/view?usp=drive_link) and [Test.zip](https://drive.google.com/file/d/1oxuHYhFLc0x2Yx7x9Lh73XljPK8ixnr_/view?usp=drive_link)
 
