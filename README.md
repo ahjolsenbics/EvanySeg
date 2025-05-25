@@ -6,7 +6,6 @@
 <h4 align="center">
     <p>
         <a href="https://github.com/ahjolsenbics/EvanySeg/blob/main/README.md#Framework">Framework</a> |
-        <a href="#-Citing Us">Citing Us</a> |
         <a href="#-Dataset">Dataset</a> |
         <a href="#-Getting Started">Getting Started</a> |
         <a href="#-Demo">Demo</a> |
@@ -36,9 +35,6 @@ EvanySeg is a companion model to SAM and its variants, designed to enhance relia
 
 <img src="./utils/readme_img/workflow.png">  
 
-## Citing Us
-
-If you're interested in learning more about EvanySeg, we would appreciate your references to [our paper](https://anonymous.4open.science/r/ES-5BA5).
 
 ## Dataset
 The EvanySeg model was trained based on 2D images, accompanied by object-level ground truth masks. Segmentation predictions for training the EvanySeg model were generated using SAM, MedSAM, and SAM-Med2D.    
