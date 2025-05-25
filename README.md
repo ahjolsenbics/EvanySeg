@@ -1,12 +1,11 @@
 <p align="center">
-    <h1 align="center"><a href="https://arxiv.org/pdf/2409.14874" target="_blank">Towards Ground-truth-free Evaluation of Any Segmentation in Medical Images*</a></h1>
+    <h1 align="center"><a href="https://anonymous.4open.science/r/ES-5BA5" target="_blank">Towards Ground-truth-free Evaluation of Any Segmentation in Medical Images*</a></h1>
 </p>
 
 
 <h4 align="center">
     <p>
         <a href="https://github.com/ahjolsenbics/EvanySeg/blob/main/README.md#Framework">Framework</a> |
-        <a href="#-Citing Us">Citing Us</a> |
         <a href="#-Dataset">Dataset</a> |
         <a href="#-Getting Started">Getting Started</a> |
         <a href="#-Demo">Demo</a> |
@@ -35,9 +34,6 @@
 EvanySeg is a companion model to SAM and its variants, designed to enhance reliability and trustworthiness in the deployment of SAM (and its variants) on medical images.  
 
 <img src="./utils/readme_img/workflow.png">  
-
-## Citing Us
-If you're interested in learning more about EvanySeg, we would appreciate your references to [our paper](https://arxiv.org/pdf/2409.14874).
 
 ## Dataset
 The EvanySeg model was trained based on 2D images, accompanied by object-level ground truth masks. Segmentation predictions for training the EvanySeg model were generated using SAM, MedSAM, and SAM-Med2D.    
