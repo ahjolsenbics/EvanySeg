@@ -1,5 +1,5 @@
 <p align="center">
-    <h1 align="center"><a href="https://anonymous.4open.science/r/ES-5BA5" target="_blank">Towards Ground-truth-free Evaluation of Any Segmentation in Medical Images*</a></h1>
+    <h1 align="center"><a href="https://anonymous.4open.science/r/ES-5BA5" target="_blank">A Coherence-Based Segmentation Quality Assessor Trained on a Large Collection of Annotated Medical Images</a></h1>
 </p>
 
 
