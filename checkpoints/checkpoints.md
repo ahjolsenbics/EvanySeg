@@ -1,5 +1,5 @@
 <p align="center">
-    <h1 align="center"><a href="https://arxiv.org/pdf/2409.14874" target="_blank">Towards Ground-truth-free Evaluation of Any Segmentation in Medical Images*</a></h1>
+    <h1 align="center"><a href="https://anonymous.4open.science/r/ES-5BA5/README.md" target="_blank">Coherence-Based Segmentation Quality Assessor Trained on a Large Collection of Annotated Medical Image*</a></h1>
 </p>
 
 
@@ -57,8 +57,4 @@ Please download the required models to the corresponding locations based on the 
 ```
 
 
-
-## Citing Us
-
-If you're interested in learning more about EvanySeg, we would appreciate your references to [our paper](https://arxiv.org/pdf/2409.14874).
 
