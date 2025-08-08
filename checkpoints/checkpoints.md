@@ -6,12 +6,12 @@
 
 <h4 align="center">
     <p>
-        <a href="https://github.com/ahjolsenbics/EvanySeg/blob/main/README.md#Framework">Framework</a> |
+        <a href="https://anonymous.4open.science/r/ES-5BA5/README.md#Framework">Framework</a> |
         <a href="#-Citing Us">Citing Us</a> |
         <a href="#-Dataset">Dataset</a> |
         <a href="#-Getting Started">Getting Started</a> |
         <a href="#-Demo">Demo</a> |
-        <a href="https://github.com/ahjolsenbics/EvanySeg">Page Main</a>
+        <a href="https://anonymous.4open.science/r/ES-5BA5/README.md">Page Main</a>
     <p>
 </h4>
 
