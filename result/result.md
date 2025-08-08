@@ -1,21 +1,21 @@
 <p align="center">
-    <h1 align="center"><a href="https://arxiv.org/pdf/2409.14874" target="_blank">Towards Ground-truth-free Evaluation of Any Segmentation in Medical Images*</a></h1>
+    <h1 align="center"><a href="https://anonymous.4open.science/r/ES-5BA5/README.md" target="_blank">Coherence-Based Segmentation Quality Assessor Trained on a Large Collection of Annotated Medical Image*</a></h1>
 </p>
 
 
 
 <h4 align="center">
     <p>
-        <a href="https://github.com/ahjolsenbics/EvanySeg/blob/main/README.md#Framework">Framework</a> |
+        <a href="https://anonymous.4open.science/r/ES-5BA5/README.md#Framework">Framework</a> |
         <a href="#-Citing Us">Citing Us</a> |
         <a href="#-Dataset">Dataset</a> |
         <a href="#-Getting Started">Getting Started</a> |
         <a href="#-Demo">Demo</a> |
-        <a href="https://github.com/ahjolsenbics/EvanySeg">Page Main</a>
+        <a href="https://anonymous.4open.science/r/ES-5BA5/README.md">Page Main</a>
     <p>
 </h4>
 
-
+ 
 
 <p align="center">
     <a href="https://github.com/facebookresearch/segment-anything">
