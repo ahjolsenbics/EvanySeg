@@ -1,5 +1,5 @@
 <p align="center">
-    <h1 align="center"><a href="https://anonymous.4open.science/r/ES-5BA5" target="_blank">Coherence-Based Segmentation Quality Assessor Trained on a Large Collection of Annotated Medical Image</a></h1>
+    <h1 align="center"><a href="https://anonymous.4open.science/r/ES-5BA5" target="_blank">Coherence-Based Segmentation Quality Evaluator Trained on a Large Collection of Annotated Medical Image</a></h1>
 </p>
 
 
