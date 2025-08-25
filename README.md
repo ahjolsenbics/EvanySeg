@@ -1,5 +1,5 @@
 <p align="center">
-    <h1 align="center"><a href="https://anonymous.4open.science/r/ES-5BA5" target="_blank">Coherence-Based Segmentation Quality Evaluator Trained on a Large Collection of Annotated Medical Image</a></h1>
+    <h1 align="center"><a href="https://github.com/ahjolsenbics/EvanySeg" target="_blank">Coherence-Based Segmentation Quality Evaluator Trained on a Large Collection of Annotated Medical Image</a></h1>
 </p>
 
 
@@ -9,7 +9,7 @@
         <a href="#-Dataset">Dataset</a> |
         <a href="#-Getting Started">Getting Started</a> |
         <a href="#-Demo">Demo</a> |
-        <a href="https://anonymous.4open.science/r/ES-5BA5">Page Main</a>
+        <a href="https://github.com/ahjolsenbics/EvanySeg">Page Main</a>
     <p>
 </h4>
 
