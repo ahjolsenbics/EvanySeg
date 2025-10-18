@@ -1,5 +1,5 @@
 <p align="center">
-    <h1 align="center"><a href="https://github.com/ahjolsenbics/EvanySeg" target="_blank">Coherence-Based Segmentation Quality Evaluator Trained on a Large Collection of Annotated Medical Image (PRCV 2025)</a></h1>
+    <h2 align="center"><a href="https://github.com/ahjolsenbics/EvanySeg" target="_blank">Coherence-Based Segmentation Quality Evaluator Trained on a Large Collection of Annotated Medical Image (PRCV 2025)</a></h2>
 </p>
 
 
