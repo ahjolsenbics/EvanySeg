@@ -1,5 +1,5 @@
 <p align="center">
-    <h1 align="center"><a href="https://github.com/ahjolsenbics/EvanySeg" target="_blank">Coherence-Based Segmentation Quality Evaluator Trained on a Large Collection of Annotated Medical Image</a></h1>
+    <h1 align="center"><a href="https://link.springer.com/chapter/10.1007/978-981-95-5634-2_17" target="_blank">Coherence-Based Segmentation Quality Evaluator Trained on a Large Collection of Annotated Medical Image</a></h1>
 </p>
 
 
@@ -8,7 +8,6 @@
         <a href="https://github.com/ahjolsenbics/EvanySeg/blob/main/README.md#Framework">Framework</a> |
         <a href="#-Dataset">Dataset</a> |
         <a href="#-Getting Started">Getting Started</a> |
-        <a href="#-Demo">Demo</a> |
         <a href="https://github.com/ahjolsenbics/EvanySeg">Page Main</a>
     <p>
 </h4>
@@ -30,7 +29,7 @@
 </p>
 
 ## 🔥Accepted at PRCV 2025! 
-Access to the paper will be updated [here](https://github.com/ahjolsenbics/EvanySeg).
+Our paper is available [here](https://link.springer.com/chapter/10.1007/978-981-95-5634-2_17).
 ## Framework
 EvanySeg is a companion model to SAM and its variants, designed to enhance reliability and trustworthiness in the deployment of SAM (and its variants) on medical images.  
 <img src="./utils/readme_img/workflow.png">  
@@ -100,6 +99,3 @@ python test.py
 ```python
 python train.py
 ```
-
-## Demo
-Online demo: coming soon.
